@@ -4,7 +4,8 @@ import java.util.TreeMap;
 public class TreeMapCeilingFloorExample {
     public static void main(String[] args) {
         TreeMap<Integer, Object> tenureTreeMap = new TreeMap<>();
-        /* employee List, for illustration purpose just creating few dummy entries but in actual it can be read from source
+        /* employee List, for illustration purpose just creating few dummy entries but in actual
+         *  it can be read from source
          * and can run into very high numbers including all employees for the organization */
         ArrayList<Employee> empList = new ArrayList<>();
         empList.add(new Employee("John", "Engineer", 24, "A1", 6,150000));
